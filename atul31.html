@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href = "style.css"/>
+<style type="text/css">
+    .grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  background-color: grey;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+  .b1
+{ 
+    background:red;
+    width:100%;
+    height:100px;
+    text-align: center;
+    font-size: 30px;
+    padding:30px;
+}
+  .b2
+   { 
+     background:red;
+    width:100%;
+    height:100px;
+   }
+    body{        
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+    nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+.column
+{ 
+ width:100%;
+ background:blue;
+ height:200px;
+ text-align:center;
+ font-size: 30px;
+ padding:60px;
+}
+
+.grid-container {
+  display: grid;
+  width:960px;
+  background:white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the header */
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+
+
+
+.sticky + .content {
+  padding-top: 102px;
+}
+</style>
+
+
+
+</head>
+<body>
+<div class="fixed-header">
+        <div class="container">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Services</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        
+    </div>  
+   
+    <div class="fixed-footer">
+        <div class="container">Copyright &copy; 2016 Your Company</div>        
+    </div>
+<div class="header" id="myHeader">
+  <h2>ABC Business group pvt. Ltd (Experience the Commitment)</h2>
+</div>
+<img src="Desktop//new1.jpg" height = 50% width = 100%>
+<P class = b1> No business can succeed in any Great Degree Without Being Properly Organized</p>
+
+<ol>
+<li><a href = "http://services.com" > services.html </a></li>
+<li><a href = "http://portfolio.com" >portfolio.html </a></li>
+
+</ol>
+<div >
+<div class = "column">HERO</div>
+</div>
+  
+
+<h1> Our Business Activites </h1></br>
+
+<div class="grid-container">
+  <div class="grid-item">Stocks</div>
+  <div class="grid-item">Economics </div>
+  <div class="grid-item">Mutual Funds</div>  
+  <div class="grid-item">Corporate Finance</div>
+  <div class="grid-item">EFTs</div>
+  <div class="grid-item">Insurance</div>  
+</div>
+
+
+ 
+
+
+
+<footer>
+  <img src="html atul//download.png" height = "100px" width = "100px">
+  <p>Posted by: ABC group Private Limited</p>
+  <p>Social links
+  <div class = "b2">
+ <ul>
+  <li> <a href="http://instagram.com">Click to follow ABC group on Instagram</a></li>
+  <li><a href="http://google.com" > Click to follow ABC group on facebook</a></li>
+  <li><a hr
+
+   
+</div><a href="http://services.com">Click to follow ABC group on Twitter</a></li>
+  </ul>
+  </div>
+  </p>
+  
+</footer>
+
+
+
+
+
+  
+
+
+</body>
+</html>
